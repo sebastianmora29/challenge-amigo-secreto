@@ -12,7 +12,12 @@ function agregarAmigo() {
         amigos.push(nombre)
     }
 
+    //limpia el input
+    limpiarCaja()
+
 }
 
-
+function limpiarCaja() {
+    document.getElementById("amigo").value = "";
+}
 
